@@ -1,3 +1,4 @@
+require 'pry'
 class School
   attr_accessor :student_name, :grade
   attr_reader :school_name, :roster
