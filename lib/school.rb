@@ -21,7 +21,6 @@ class School
   
   def sort 
     roster.each do |grade|
-      "#{grade}.sort"
       grade.each do |name|
         "#{name}.sort"
       end
