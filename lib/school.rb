@@ -20,6 +20,7 @@ class School
   end
   
   def sort 
+    binding.pry
     roster.each do |grade|
       grade.each do |name|
         "#{name}.sort"
