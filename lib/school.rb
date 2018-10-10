@@ -22,11 +22,11 @@ class School
   
   def sort 
     binding.pry
-    roster.each do |grade|
-      grade.each do |name|
-        "#{name}.sort"
-      end
-    end 
+    test_hash = {}
+    roster.each do |grade, students|
+      test_hash[grade] = students.sort
+    end
+    test_hash
   end
     
 end
