@@ -16,6 +16,6 @@ class School
   end
   
   def grade(grade)
-    roster.keys
+    keys.values
   end
 end
