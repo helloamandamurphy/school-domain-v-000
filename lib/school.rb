@@ -16,6 +16,6 @@ class School
   end
   
   def grade(grade)
-    keys.values
+    grade.values
   end
 end
