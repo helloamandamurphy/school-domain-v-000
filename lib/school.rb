@@ -15,7 +15,7 @@ class School
     @roster[grade] << student_name
   end
   
-  def grade_print(grade)
+  def grade(grade)
     roster[grade]
   end
   
